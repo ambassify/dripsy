@@ -3,7 +3,7 @@
   "version": "4.3.5",
   "main": "__generated__/AppEntry.js",
   "dependencies": {
-    "expo": "^40.0.0",
+    "expo": "^48.0.0",
     "next": "9.4.4",
     "next-compose-plugins": "^2.2.0",
     "next-transpile-modules": "3.3.0",
