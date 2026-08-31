@@ -28111,9 +28111,9 @@ __metadata:
   linkType: hard
 
 "trim-off-newlines@npm:^1.0.0":
-  version: 1.0.1
-  resolution: "trim-off-newlines@npm:1.0.1"
-  checksum: 10c0/d24cee003b4509d743e40ff5de70a9abf7a144d0ea25c68aaefc85e8870ee18b24c459e1429a194a57ea743947da63d840f7ce94969e7ac3de0fa49932f130d6
+  version: 1.0.3
+  resolution: "trim-off-newlines@npm:1.0.3"
+  checksum: 10c0/867ff071ab82335c9f82d8a54d3cce4684d3af256915570c00a2307d26af463dc2250ad31260f7cb4548b18619bef17273f312f2b2b3f51545b32a26017c9bc9
   languageName: node
   linkType: hard
 
