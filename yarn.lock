@@ -8573,6 +8573,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@xmldom/xmldom@npm:^0.9.10":
+  version: 0.9.12
+  resolution: "@xmldom/xmldom@npm:0.9.12"
+  checksum: 10c0/0a9ef38e203213717dde8d16c62743c26c37eb4195aeb4f286550a0aec2145c063a6c3633f253c29f75202f922d7c961d1acaad4dd93e5db1ef05c813354d178
+  languageName: node
+  linkType: hard
+
 "@xmldom/xmldom@npm:~0.7.7":
   version: 0.7.13
   resolution: "@xmldom/xmldom@npm:0.7.13"
@@ -10188,10 +10195,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"big-integer@npm:^1.6.44":
-  version: 1.6.48
-  resolution: "big-integer@npm:1.6.48"
-  checksum: 10c0/4012d69592f53ccd159acc0643f8594d341306485fed8b9a31b756a0d6fc8a889d8bc6023ef31b9aac78dba307b41d65e060dafcb8764f04238112b119b885e2
+"big-integer@npm:1.6.x":
+  version: 1.6.52
+  resolution: "big-integer@npm:1.6.52"
+  checksum: 10c0/9604224b4c2ab3c43c075d92da15863077a9f59e5d4205f4e7e76acd0cd47e8d469ec5e5dba8d9b32aa233951893b29329ca56ac80c20ce094b4a647a66abae0
   languageName: node
   linkType: hard
 
@@ -10283,21 +10290,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"bplist-creator@npm:0.0.8":
-  version: 0.0.8
-  resolution: "bplist-creator@npm:0.0.8"
+"bplist-creator@npm:0.1.1":
+  version: 0.1.1
+  resolution: "bplist-creator@npm:0.1.1"
   dependencies:
-    stream-buffers: "npm:~2.2.0"
-  checksum: 10c0/21c865784db7f14ca26ff20b4aab85b87577549f7592271c22052de6df95cfab9cc7671f602106f4c9e6dc9c0de9710c907b8d4f7345427a710ae8616a578587
+    stream-buffers: "npm:2.2.x"
+  checksum: 10c0/427ec37263ce0e8c68a83f595fc9889a9cbf2e6fda2de18e1f8ef7f0c6ce68c0cdbb7c9c1f3bb3f2d217407af8cffbdf254bf0f71c99f2186175d07752f08a47
   languageName: node
   linkType: hard
 
-"bplist-parser@npm:0.2.0":
-  version: 0.2.0
-  resolution: "bplist-parser@npm:0.2.0"
+"bplist-parser@npm:0.3.2":
+  version: 0.3.2
+  resolution: "bplist-parser@npm:0.3.2"
   dependencies:
-    big-integer: "npm:^1.6.44"
-  checksum: 10c0/ce79c69e0f6efe506281e7c84e3712f7d12978991675b6e3a58a295b16f13ca81aa9b845c335614a545e0af728c8311b6aa3142af76ba1cb616af9bbac5c4a9f
+    big-integer: "npm:1.6.x"
+  checksum: 10c0/4dc307c11d2511a01255e87e370d4ab6f1962b35fdc27605fd4ce9a557a259c2dc9f87822617ddb1f7aa062a71e30ef20d6103329ac7ce235628f637fb0ed763
   languageName: node
   linkType: hard
 
@@ -23440,6 +23447,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"plist@npm:^3.0.5":
+  version: 3.1.1
+  resolution: "plist@npm:3.1.1"
+  dependencies:
+    "@xmldom/xmldom": "npm:^0.9.10"
+    base64-js: "npm:^1.5.1"
+    xmlbuilder: "npm:^15.1.1"
+  checksum: 10c0/af681277c2e541c6aab0ddee57f59459c43beeea1ee7aa2d4218aa39595fb41c068e2d2be3e4abb17e3252eaf2c1b806ecfb1d402fa5a3f4a6e1a7a32c880c9a
+  languageName: node
+  linkType: hard
+
 "plugin-error@npm:^0.1.2":
   version: 0.1.2
   resolution: "plugin-error@npm:0.1.2"
@@ -26358,13 +26376,13 @@ __metadata:
   linkType: hard
 
 "simple-plist@npm:^1.0.0, simple-plist@npm:^1.1.0":
-  version: 1.1.1
-  resolution: "simple-plist@npm:1.1.1"
+  version: 1.4.0
+  resolution: "simple-plist@npm:1.4.0"
   dependencies:
-    bplist-creator: "npm:0.0.8"
-    bplist-parser: "npm:0.2.0"
-    plist: "npm:^3.0.1"
-  checksum: 10c0/81c08b90488bbc2b186ce1a4f6d01ec94b8ab97771adda5455df12cb73cd9bf66c5c236ff1435c2a4ac46f4c257fd3088630fb4ffbbd83ccaad85fb7e8635265
+    bplist-creator: "npm:0.1.1"
+    bplist-parser: "npm:0.3.2"
+    plist: "npm:^3.0.5"
+  checksum: 10c0/226c283492d8518d715e4133d94bdbd15c0619561bcde583b4807b36cde106c0078c615b9b4e25c0e8758a4ae4e79ed5dd76e57cd528d8b7001ecab5ad35e343
   languageName: node
   linkType: hard
 
@@ -26938,7 +26956,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"stream-buffers@npm:~2.2.0":
+"stream-buffers@npm:2.2.x":
   version: 2.2.0
   resolution: "stream-buffers@npm:2.2.0"
   checksum: 10c0/14a351f0a066eaa08c8c64a74f4aedd87dd7a8e59d4be224703da33dca3eb370828ee6c0ae3fff59a9c743e8098728fc95c5f052ae7741672a31e6b1430ba50a
@@ -30157,6 +30175,13 @@ __metadata:
   version: 14.0.0
   resolution: "xmlbuilder@npm:14.0.0"
   checksum: 10c0/3a99d1642b0a25a24f24bc5a32f37d299886e01e004654e34d13877e7648956f000708568456fedb7423e1dc2fbfe6520298699a3fbabc681d989be4a41c1509
+  languageName: node
+  linkType: hard
+
+"xmlbuilder@npm:^15.1.1":
+  version: 15.1.1
+  resolution: "xmlbuilder@npm:15.1.1"
+  checksum: 10c0/665266a8916498ff8d82b3d46d3993913477a254b98149ff7cff060d9b7cc0db7cf5a3dae99aed92355254a808c0e2e3ec74ad1b04aa1061bdb8dfbea26c18b8
   languageName: node
   linkType: hard
 
